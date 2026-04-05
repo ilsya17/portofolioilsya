@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Ilsya Amelia</title>
+    <style>
+        /* Gaya Internal CSS - Tema Profesional & Estetik */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #fffafb; /* Warna latar belakang pink sangat muda */
+            color: #444;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border: 1px solid #fce4ec;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #ff80ab;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: #c2185b;
+            margin: 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #880e4f;
+            font-weight: 500;
+        }
+
+        h2 {
+            color: #ad1457;
+            border-left: 5px solid #ff80ab;
+            padding-left: 15px;
+            margin-top: 35px;
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* CSS untuk Mengatur Ukuran Foto */
+        .profile-img {
+            width: 180px;      /* Ukuran lebar foto */
+            height: 180px;     /* Ukuran tinggi foto */
+            border-radius: 50%; /* Membuat foto jadi lingkaran sempurna */
+            object-fit: cover;  /* Memastikan foto tidak gepeng */
+            border: 4px solid #ff80ab; /* Bingkai pink cantik */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: #fce4ec;
+            color: #c2185b;
+            padding: 6px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        .experience-item strong {
+            color: #c2185b;
+            display: block;
+            font-size: 1.1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            font-size: 0.85em;
+            color: #999;
+            border-top: 1px solid #eee;
+        }
+
+        /* Responsif untuk HP */
+        @media (max-width: 600px) {
+            .profile-section {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Ilsya Amelia</h1>
+            <p class="subtitle">Digital Business Student | Entrepreneur | Content Creator</p>
+        </header>
+
+        <section class="profile-section">
+            <img src="IMG_9468.jpg" alt="Foto Profil Ilsya Amelia" class="profile-img">
+            
+            <div>
+                <h2>Tentang Saya</h2>
+                <p>
+                    Halo! Saya mahasiswi semester 4 Bisnis Digital di <strong>Kalla Institute</strong>. 
+                    Saya mengombinasikan latar belakang akademis dengan pengalaman nyata sebagai 
+                    pemilik usaha kue <i>home-made</i>. Kecintaan saya pada dunia kuliner dan hobi membuat 
+                    konten harian (vlog) memberikan perspektif unik dalam membangun strategi pemasaran 
+                    yang autentik dan kreatif bagi audiens digital.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Keahlian Utama</h2>
+            <div>
+                <span class="skill-tag">Digital Marketing</span>
+                <span class="skill-tag">E-commerce Strategy</span>
+                <span class="skill-tag">Business Model Analysis</span>
+                <span class="skill-tag">Content Creation & Storytelling</span>
+                <span class="skill-tag">Social Media Management</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Pengalaman Profesional</h2>
+            <div class="experience-item">
+                <strong>• Content Creator (Butik DKG & Toko Oleh-oleh DKG)</strong>
+                <p>Merancang ide konten kreatif, produksi visual, hingga pengelolaan interaksi di media sosial untuk memperkuat brand awareness melalui pendekatan storytelling yang menarik.</p>
+            </div>
+            <div class="experience-item">
+                <strong>• Manajemen Operasional Rumah Makan</strong>
+                <p>Mengelola operasional harian, mulai dari pengawasan stok bahan baku hingga sistem pelayanan pelanggan untuk memastikan efisiensi dan kualitas bisnis.</p>
+            </div>
+            <div class="experience-item">
+                <strong>• Founder & Owner - Usaha Kue Home-made</strong>
+                <p>Membangun dan memasarkan bisnis kuliner secara mandiri, mengoptimalkan penjualan melalui platform digital, dan mengelola kepuasan pelanggan.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Kontak: ilsyaamelia@email.com | Instagram: @ilsyaamelia</p>
+            <p>&copy; 2026 Portofolio Mahasiswa Bisnis Digital - Kalla Institute</p>
+        </footer>
+    </div>
+
+</body>
+</html>
